@@ -1,16 +1,16 @@
 # MAST30034 Project 1 - Quantitative Analysis
-- Student Name: _Insert Name_
-- Student ID: _Insert Student ID_
+- Student Name: Brian Vu
+- Student ID: 1053531
 - Due Date: Friday 13th of August 11:59:00 am (AEST).
 - Report Link: _Insert Report Link if applicable_
 
 # Dependencies
-- Language: _i.e Python 3.8.3 and/or R 4.05_
-- Packages / Libraries: _i.e pandas, pyspark, sklearn, statsmodels, folium, etc... OR add a `requirements.txt`_
+- Language: Python 3.8.3
+- Packages / Libraries: pandas, pyspark, geopandas, numpy, folium
 
 # Datasets
 - NYC TLC: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-- External dataset 1: (optional)
+- External dataset 1: US Census Bureau (various datasets): https://data.census.gov/cedsci/
 - External dataset 2: (optional)
 - ...
 - External dataset n: (optional)
