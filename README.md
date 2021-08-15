@@ -6,32 +6,25 @@
 
 # Dependencies
 - Language: Python 3.8.3
-- Packages / Libraries: pandas, pyspark, geopandas, numpy, folium, rtree, pygeos
+- Packages / Libraries: pandas, pyspark, geopandas, numpy, folium, rtree, pygeos, statsmodels, sklearn
 
 # Datasets
 - NYC TLC: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - External dataset 1: US Census Bureau (various datasets): https://data.census.gov/cedsci/
-- External dataset 2: (optional)
-- ...
-- External dataset n: (optional)
+- External dataset 2: Census Tracts data: https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nycb2010_21b.zip
+
 
 # Directory
 _Change this to fit your needs when you have started the project._
 - `raw_data`: Contains all the raw data files that are too large to upload to git. These just include the taxi datasets.
-- `raw_data_lite`: Contains all other raw data that can be uploaded to git. These include the shapefiles for the Neibourhood Tabulated Areas and taxi zones, as well as the census dataset that used.
-- `preprocessed_data`: Contains all the preprocessed data files. You may add this folder to `.gitignore` if your files are too large, but your script should automaticaally generate files here given the correct dataset in `raw_data`.
-- `plots`: Output and save all your figures here.
-- `code`: Keep all notebooks and scripts in this folder. Ensure that you have notebooks for each _stage_ of code. Here's an example:
-    - Notebook 1 for "Extracting Data" and "Installing Packages".
-    - Notebook 2 for "Preprocessing" and/or "Exploratory Data Analysis".      
-    - Notebook 3 for "Analysis and Visualisation".
-    - Notebook 4 for "Statistical Modelling".
-- `deprecated`: A folder to store "old code" that **you do not use anymore** or code that you experimented with, but decided to not go ahead. This is useful in case you ever need to come back to an older iteration of code or to express your other approaches to the problem.
-
-# Other
-_Feel free to add any other information that you deem useful._
-- (You may delete these dot points once you have read and understood them)
-- You should avoid uploading your datasets as they are far too large (without using git LFS). Please add them to the `.gitignore` file or remove them when pushing changes.
-- You can delete all the `.gitkeep` files located inside each empty directory. These just exist to give the folder directory templates as GitHub doesn't keep track of empty directories. 
-- Attatch a `requirements.txt` if you are using non-standard Python libraries that are not officially taught or covered in this subject. 
-- Remember, there are marks awarded for readability in your code, as well as reproducability.
+- `raw_data_lite`: Contains all other raw data that can be uploaded to git. These include the shapefiles for the census tracts and taxi zones, as well as the census dataset that used.
+- `preprocessed_data`: Contains all the preprocessed data files. 
+- `plots`: Contains all plots and figures
+- `code`: Order to run notebooks:
+ 1, Extracting and serializing data. Some data was manually uploaded, but have links download them
+ 2, Preprocessing census data
+ 3, Preprocessing taxi data 1
+ 4, Preprocessing taxi data 2
+ 5, Merging and visualizing
+ 6, Statistical modelling
+- `deprecated`: Contains discard plots and some code (but not much, most were deleted).
