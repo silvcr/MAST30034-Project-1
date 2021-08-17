@@ -21,9 +21,14 @@ _Change this to fit your needs when you have started the project._
 - `plots`: Contains all plots and figures
 - `code`: Order to run notebooks:
  1, Extracting and serializing data. Some data was manually uploaded, but have links download them.
+ 
  2, Preprocessing census data.
+ 
  3, Preprocessing taxi data 1.
+ 
  4, Preprocessing taxi data 2.
+ 
  5, Merging and visualizing.
+ 
  6, Statistical modelling.
 - `deprecated`: Contains discard plots and some code (but not much, most were deleted).
