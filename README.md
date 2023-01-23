@@ -20,7 +20,8 @@ _Change this to fit your needs when you have started the project._
 - `preprocessed_data`: Contains all the preprocessed data files. 
 - `plots`: Contains all plots and figures
 - `code`: Order to run notebooks:
- 1, Extracting and serializing data. Some data was manually uploaded, but have links download them.
+
+ 1, Extracting and serializing data. Some data was manually uploaded, but have links to download them.
  
  2, Preprocessing census data.
  
